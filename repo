@@ -5,7 +5,7 @@
 import os
 REPO_URL = os.environ.get('REPO_URL', None)
 if not REPO_URL:
-  REPO_URL = 'git@SHAGIT01.cn.zmt.local:platform/git-repo.git'
+  REPO_URL = 'git@SHAGIT01.cn.zmt.local:open_source/git-repo.git'
 REPO_REV = 'stable'
 
 # Copyright (C) 2008 Google Inc.
